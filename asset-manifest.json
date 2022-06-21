@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/marktodo/static/css/main.e6c13ad2.css",
+    "main.js": "/marktodo/static/js/main.993f35b8.js",
+    "static/js/787.4177c33a.chunk.js": "/marktodo/static/js/787.4177c33a.chunk.js",
+    "static/media/empty.jpg": "/marktodo/static/media/empty.54948b9969d745cd2bd2.jpg",
+    "static/media/logo.png": "/marktodo/static/media/logo.5110ef7c90ac80e2ebc9.png",
+    "static/media/background.svg": "/marktodo/static/media/background.4520f619d6deb034da6b00e53d8bc27e.svg",
+    "index.html": "/marktodo/index.html",
+    "main.e6c13ad2.css.map": "/marktodo/static/css/main.e6c13ad2.css.map",
+    "main.993f35b8.js.map": "/marktodo/static/js/main.993f35b8.js.map",
+    "787.4177c33a.chunk.js.map": "/marktodo/static/js/787.4177c33a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.993f35b8.js"
+  ]
+}
