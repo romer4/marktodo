@@ -19,7 +19,8 @@ const GroupView = () => {
             <Box
                 sx={{
                     display: "flex",
-                    flexDirection: "column"
+                    flexDirection: "column",
+                    minHeight: "90vh"
                 }}
             >
                 <SearchBar/>

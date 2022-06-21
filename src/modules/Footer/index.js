@@ -17,8 +17,7 @@ const Footer = () => {
             }}
         >
             <Typography
-                variant={"h4"}
-                align={"center"}
+                variant={"h5"}
                 sx={{
                     color: "white",
                     m: 3
