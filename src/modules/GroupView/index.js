@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import Header from "../../common/Header";
 import ListContainer from "./List";
 import SearchBar from "./SearchBar";
+import Footer from "../Footer";
 
 const GroupView = () => {
 
@@ -24,6 +25,7 @@ const GroupView = () => {
                 <SearchBar/>
                 <ListContainer/>
             </Box>
+            <Footer/>
         </Box>
     );
 }

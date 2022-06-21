@@ -10,11 +10,13 @@ const validEmails = ["admin@admin.com"];
 const Login = () => {
 
     const [email, setEmail] = useState("");
+    const [submitted, setSubmitted] = useState(false);
 
     const theme = useTheme();
     const navigate = useNavigate();
 
     const handleSubmit = () => {
+        setSubmitted(true);
         validEmails.includes(email) && navigate("/");
         localStorage.setItem("loggedOnce", true);
     }
@@ -87,6 +89,8 @@ const Login = () => {
                         onChange={(e) => setEmail(e.target.value)}
                         placeholder={"example@email.com"}
                         label={"E-mail"}
+                        helperText={submitted && !email && ("Insira um e-mail")}
+                        error={submitted && !email}
                     />
                     <TextField
                         placeholder={"Senha"}

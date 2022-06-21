@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import { Helmet } from "react-helmet";
 import Header from "../../common/Header";
+import Footer from "../Footer";
 import ListContainer from "./List";
 import SearchBar from "./SearchBar";
 
@@ -20,6 +21,7 @@ const GroupList = () => {
                 <SearchBar/>
                 <ListContainer/>
             </Box>
+            <Footer/>
         </Box>
     );
 }
